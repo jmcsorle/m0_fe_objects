@@ -24,7 +24,9 @@ console.log([Object.values(foods)[1]]);
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-console.log([Object.keys(foods)[3]]);
+foods.oatmealBoxes = 27;
+console.log(foods);
+//console.log([Object.keys(foods)[3]]);
 
 
 // -------------------
